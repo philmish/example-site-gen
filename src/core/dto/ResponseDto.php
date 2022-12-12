@@ -6,7 +6,7 @@ namespace ExPF\core\dto;
 interface ResponseDto {
 
     // Outputs formated HTML from the data in the response
-    public function generate();
+    public function generate(): string;
 }
 
 
